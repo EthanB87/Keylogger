@@ -18,12 +18,13 @@ This Python script implements a simple keylogger that tracks keystrokes and send
 
 ## Usage
 
-1. Clone the repository or download the script file (`keylogger.py`).
+1. Clone the repository or download the script file (`logger.py`).
 2. Install the required Python packages using `pip install pynput configparser`.
 3. Configure the email settings in the `config.ini` file.
 4. Run the keylogger script using Python:- Ensure that you have permissions to run scripts in your system.
 5. Press keys on the keyboard to record keystrokes.
 6. After a specified number of keystrokes (default: 75), the keystrokes will be logged to a file and sent via email.
+7. Use pyinstaller or something similar to create an executable that runs the logger in the background.
 
 ## Important Note
 
